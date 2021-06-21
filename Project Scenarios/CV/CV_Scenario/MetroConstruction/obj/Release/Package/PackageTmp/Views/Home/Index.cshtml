@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Metro Construction</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+    @*<!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+
+    <!-- Lineawesome CSS -->
+    <link rel="stylesheet" href="~/assets/css/line-awesome.min.css">*@
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <style type="text/css">
+        .col-half-offset {
+            margin-left: 3.33%;
+        }
+
+        .profile-widget {
+            padding: 7px;
+            min-height: 185px !important;
+            border-radius: 20px !important;
+        }
+        .header {
+            height: 60px;
+        }
+        .page-title-box {
+            padding-top: 15px;
+        }
+        .avatar {
+            width: 100px !important;
+            height: 100px !important;
+        }
+        .profile-img {
+            height: 100px;            
+            width: 100px;
+        }
+        .container-fluid {
+            padding-right: 60px !important;
+            padding-left: 60px !important;
+        }
+            /*.row {
+            margin-right: -60px;
+            margin-left: -90px;
+        }*/
+    </style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+        <!-- Page Wrapper -->
+        <div>
+            <!-- Header -->
+            <div class="header" style="position: relative;">
+                <div class="page-title-box" style="float: none;">
+                    <center><h2>Metro Construction Tally Board</h2></center>
+                </div>
+            </div>
+
+            <!-- Page Content -->
+            <div class="container-fluid" style="padding-top: 30px;">
+                <!-- Content Starts -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="search-lists">
+                            <div class="row staff-grid-row">
+                                @for (int i = 0; i < 12; i++)
+                                {
+                                    <div class="col-md-4 col-sm-6 col-12 col-lg-4 col-xl-3">
+                                        <div class="profile-widget">
+                                            <div class="profile-img">
+                                                @if (i < ViewBag.data.Count)
+                                                {
+                                                    <img id="img_@i" class="avatar" alt="" src="@ViewBag.data[i].register_image1" style="display: none;">
+                                                }
+                                                else
+                                                {
+                                                    <img id="img_@i" class="avatar" alt="" style="display: none;">
+                                                }
+                                            </div>
+                                            @if (i < ViewBag.data.Count)
+                                            {
+                                                <h4 id="name_@i" class="user-name m-t-20 mb-0 text-ellipsis" style="display: none;">@ViewBag.data[i].first_name</h4>
+                                                <h4 id="time_@i" class="user-name m-t-5 mb-0 text-ellipsis" style="display: none;">@ViewBag.data[i].log_date_time</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 id="name_@i" class="user-name m-t-20 mb-0 text-ellipsis" style="display: none;"></h4>
+                                                <h4 id="time_@i" class="user-name m-t-5 mb-0 text-ellipsis" style="display: none;"></h4>
+                                            }
+                                        </div>
+                                    </div>
+                                }
+                                @*@foreach(var data in ViewBag.data){
+
+
+                                    }*@
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Content End -->
+            </div>
+            <!-- /Page Content -->
+        </div>
+        <!-- /Page Wrapper -->
+    </div>
+    <!-- /Main Wrapper -->
+    <!-- jQuery -->
+
+    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap Core JS -->
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+
+    <!-- Slimscroll JS -->
+    @*<script src="~/assets/js/jquery.slimscroll.min.js"></script>
+
+        <!-- Custom JS -->
+        <script src="~/assets/js/app.js"></script>*@
+
+    <script>
+        $(document).ready(function () {
+            //for (let i = 0; i < 12; i++) {
+            //    $("#img_" + i).hide();
+            //    $("#name_" + i).hide();
+            //}
+            GetData();
+            setInterval(function () {
+                GetData();
+            }, 7000);
+        });
+
+        function GetData() {
+            var obj = {};
+            $.ajax({
+                type: "POST",
+                data: obj,
+                url: "/Home/GetEmpData/",
+                success: function (response) {
+                    try {
+                        if (response.StatusCode == "API200") {
+                            for (let i = 0; i < response.employee_data.length; i++) {
+                                if (response.employee_data[i]["log_type"] == 1) {
+                                    $("#img_" + i).show();
+                                    $("#name_" + i).show();
+                                    $("#name_" + i).html(response.employee_data[i]["first_name"]);
+                                    var s = new Date(response.employee_data[i]["log_date_time"]).toLocaleString(undefined, { timeZone: 'Asia/Kolkata' });
+                                    $("#time_" + i).show();
+                                    $("#time_" + i).html(s);
+                                }
+                                else {
+                                    $("#img_" + i).hide();
+                                    $("#name_" + i).hide();
+                                    $("#time_" + i).hide();
+                                }
+                            }
+                            console.log(response);
+                        }
+                        else if (response.StatusCode == "API400") {
+                            console.log(response);
+                        }
+                        else {
+                            console.log(response);
+                        }
+                    }
+                    catch (err) {
+                        console.log(err);
+                    }
+                },
+                error: function (response) {
+                    console.log('exc');
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>

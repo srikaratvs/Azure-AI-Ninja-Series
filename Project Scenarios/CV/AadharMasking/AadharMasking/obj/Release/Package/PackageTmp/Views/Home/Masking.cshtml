@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>JSN Aadhar Masking</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="~/assets/images/fav_touch_icons/favicon.png" rel="icon">
+    <link href="~/assets/images/fav_touch_icons/favicon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="~/TATAAIGassets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Template Main CSS File -->
+    <link href="~/TATAAIGassets/css/style.css" rel="stylesheet">
+    <style>
+        .instruction {
+            font-size: 23px;
+            font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+            text-align: center;
+            /*background: black;*/
+            color: black;
+            padding: 13px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+            .slider.round:before {
+                border-radius: 50%;
+            }
+
+        #warn_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        #image_url_msg {
+            font-size: 12px;
+            text-align: left;
+            color: red;
+        }
+
+        .label_padding {
+            padding: 5px;
+            font-weight: bolder;
+            margin-top: 5px;
+        }
+
+        .v1_width {
+            min-width: 100px;
+            max-width: 100px;
+        }
+
+        .v2_width {
+            min-width: 100px;
+            max-width: 100px;
+        }
+
+        .scrutiny_align {
+            text-align: center;
+            min-width: 80px;
+            max-width: 80px;
+        }
+
+        .check_size {
+            width: 20px;
+            height: 20px;
+        }
+
+        .refresh_btn {
+            color: #18478b !important;
+            cursor: pointer;
+        }
+
+        .msg {
+            font-size: 12px;
+            color: red;
+            text-align: left;
+            padding: 2px;
+        }
+
+        .process_err_msg {
+            font-size: 12px;
+            color: red;
+            text-align: center;
+            padding: 2px;
+            font-weight: bolder;
+        }
+
+        .header_bg {
+            background: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+    <input type="hidden" id="document_id" name="document_name" />
+    <div id="alert_popup_div"></div>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-xs-12 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <div class="logo float-left">
+                        <a href="index.html"><img src="~/TATAAIGassets/img/JSN_Logo.png" alt="" class="img-fluid" style="max-width: 130%;"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-xs-12 col-md-8 col-lg-8 col-xl-8 text-center">
+                    <br>
+                    <h1>JSN Aadhar Masking</h1>                    
+                </div>
+                <div class="col-12 col-sm-12 col-xs-12 col-md-2 col-lg-2 col-xl-2 text-center">
+                    <p class="msg" id="Logout"></p>
+                    <input type="button" class="btn btn-primary" value="Logout" id="logout_btn">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <p class="h_line"><span>See it in action</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-sm-1" style="text-align: right;">
+                <label class="switch pull-right">
+                    <input type="checkbox" id="on_off_btn">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="col-md-6 col-sm-6" style="text-align: left;">
+                <p class="pull-left" style="margin-top: 1%;"> Upload Image/Live streaming</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-xs-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4 text-center">
+                    <div id="upload_sec">
+                        <label>Select document image</label><br>
+                        <input type="file" class="btn btn-primary" name="ImageFile" id="ImageFile">
+
+                        <p class="msg" id="file_err_msg"></p>
+                    </div>
+                    <div id="cam_sec">
+                        <video id="video" class="response registration_video w-100" autoplay=""></video>
+                        <div class="text-center">
+
+                            <button class="btn btn-primary" id="capture_btn"><i class="fa fa-camera"></i> Take Snapshot</button>
+
+                            <p class="msg" id="cam_err_msg"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-xs-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 text-center">
+
+                    <div class="text-center">
+
+                        <img src="~/TATAAIGassets/img/preview.png" alt="Preview" class="img" id="preview_img" style="width:100%;">
+                        <br /><br />
+                        <button class="btn btn-primary" id="process_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Process</button>
+                        <br /><br />
+                        <p class="process_err_msg" id="process_error_msg"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="OutSection">
+        <div class="container-fluid">
+            <div class="card">
+                <br>
+                <div class="row">
+                    <div class="col-12 col-sm-12 offset-md-3 col-md-6 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 text-center">
+                        <img src="~/TATAAIGassets/img/preview.png" alt="Preview" class="img" style="width: 100%;" id="out_preview_img">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>JumpStartNinja</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="~/TATAAIGassets/vendor/jquery/jquery.min.js"></script>
+    <script src="~/TATAAIGassets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="~/Indexassets/js/user.js"></script>
+    <script>
+
+
+    </script>
+</body>
+</html>

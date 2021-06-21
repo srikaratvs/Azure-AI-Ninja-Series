@@ -1,0 +1,99 @@
+.top {
+  .container {
+    display: flex;
+    padding: 0.8rem 0;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      font-weight: 600;
+      color: $font-col;
+    }
+  }
+}
+.chat-wrapper {
+  .chat-bot-wrapper {
+    height: 76.6vh;
+    display: flex;
+    .chat,
+    .bot {
+      .body {
+        height: 85%;
+      }
+    }
+    .chat {
+      flex-basis: 57.8%;
+      @import '../global/custom-scroll';
+      .body {
+        overflow-y: auto;
+
+        border-right: 1px solid rgba(165, 165, 165, 0.24);
+        p {
+          padding: 1.3rem 1.8rem;
+          font-size: 1.1rem;
+          line-height: 1.3;
+          font-weight: 600;
+          color: $font-col;
+          border-radius: 0.4rem;
+        }
+        .user {
+          width: 38%;
+          margin: 0.5rem 0;
+          background-color: #c4d0dc;
+        }
+
+        .bot {
+          width: 47%;
+          margin: 1rem 8.4% 1.6rem auto;
+          background-color: #e5eaee;
+        }
+      }
+
+      .bottom {
+        display: flex;
+        align-items: center;
+        .msg-input {
+          border: none;
+          outline: none;
+          border: 2px solid $primary-col;
+          width: 71.5%;
+          padding: 1.27rem 2.7rem;
+          font-size: 1.3rem;
+          border-radius: 3rem;
+          margin-right: 2.2rem;
+        }
+        button {
+          outline: none;
+          border: none;
+          background-color: transparent;
+          margin-right: 1.4rem;
+          position: relative;
+          .time {
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.3rem;
+            color: $font-col;
+          }
+        }
+      }
+    }
+    .bot {
+      flex: 1;
+      .body,
+      .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .body {
+        padding: 6% 0 0 13%;
+      }
+
+      .bottom {
+        padding: 0.3rem 0 0 11.8%;
+      }
+    }
+  }
+}

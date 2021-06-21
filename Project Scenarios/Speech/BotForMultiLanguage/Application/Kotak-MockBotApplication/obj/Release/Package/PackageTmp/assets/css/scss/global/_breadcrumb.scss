@@ -1,0 +1,36 @@
+// breadcrumb
+.breadcrumb-wrapper {
+  ol {
+    list-style: none;
+    li {
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-right: 1rem;
+      color: $primary-col;
+      position: relative;
+      a {
+        color: $primary-col;
+      }
+      &.current {
+        color: #666666;
+      }
+
+      // for arrows
+      &::after {
+        content: '>';
+        font-size: 1.2em;
+        position: absolute;
+        top: 0rem;
+        right: -1rem;
+        color: $primary-col;
+      }
+
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

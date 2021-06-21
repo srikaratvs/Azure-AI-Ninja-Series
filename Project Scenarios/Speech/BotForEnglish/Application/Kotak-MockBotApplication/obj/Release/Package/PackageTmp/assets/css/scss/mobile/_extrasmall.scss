@@ -1,0 +1,91 @@
+@media (max-width: 575.98px) {
+  // login
+  .login-wrapper {
+    .logo-wrapper {
+      padding: 1.5rem 1.4rem 0 0;
+      .login-logo {
+        width: 6rem;
+      }
+    }
+
+    .flex {
+      flex-wrap: wrap;
+      .form-wrapper {
+        height: 64%;
+        flex-basis: 100%;
+        form {
+          h1 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  // header
+  .dashboard-header {
+    padding-top: 1rem;
+    .container {
+      flex-wrap: wrap;
+
+      .logo-wrapper {
+        .logo {
+          width: 6rem;
+        }
+      }
+
+      nav {
+        .link {
+          padding: 0.8rem 0.4rem;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+
+  // top
+  .top {
+    .container {
+      flex-wrap: wrap;
+      h1 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @import '../global/custom-scroll';
+
+  // chat page
+  .chat-wrapper {
+    .chat-bot-wrapper {
+      flex-wrap: wrap;
+      .chat {
+        flex-basis: 100%;
+      }
+      .bot {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  .final-score-wrapper {
+    overflow-y: auto;
+    .container {
+      flex-wrap: wrap;
+      height: 74.9vh;
+
+      .bot {
+        flex-basis: 100%;
+        padding: 0;
+        img {
+          display: block;
+          width: 30%;
+          margin: 0 auto;
+        }
+      }
+      .right {
+        flex-basis: 100%;
+      }
+    }
+  }
+}

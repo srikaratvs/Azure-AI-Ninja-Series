@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">    
+    <title>AI Models</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+    @*<!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+
+        <!-- Lineawesome CSS -->
+        <link rel="stylesheet" href="~/assets/css/line-awesome.min.css">*@
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <style type="text/css">
+        .col-half-offset {
+            margin-left: 3.33%;
+        }
+
+        .profile-widget {
+            padding: 7px;
+            min-height: 185px !important;
+            border-radius: 20px !important;
+        }
+
+        .header {
+            height: 60px;
+        }
+
+        .page-title-box {
+            padding-top: 15px;
+        }
+
+        .avatar {
+            width: 100px !important;
+            height: 100px !important;
+        }
+
+        .profile-img {
+            height: 100px;
+            width: 100px;
+        }
+
+        .container-fluid {
+            padding-right: 60px !important;
+            padding-left: 60px !important;
+        }
+        /*.row {
+            margin-right: -60px;
+            margin-left: -90px;
+        }*/
+    </style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+        <!-- Page Wrapper -->
+        <div>
+            <!-- Header -->
+            <div class="header" style="position: relative;">
+                <div class="page-title-box" style="float: none;">
+                    <center><h2>AI Models Demo</h2></center>
+                </div>
+            </div>
+
+            <!-- Page Content -->
+            <section>
+                <div class="container-fluid" style="padding-top: 50px;">
+                    <div class="row">                       
+                        <div class="col-12 col-sm-12 col-xs-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4 text-center">                       
+                            <div class="row" style="text-align:left">
+                                <div>
+                                    <label>Choose Model</label><br>
+                                    <select class="form-control btn btn-primary" id="model_category">
+                                        <option value="Planogram Food">Planogram Food</option>
+                                        <option value="Planogram Non Food">Planogram Non Food</option>
+                                        <option value="Colour Identification">Colour Identification</option>
+                                        <option value="Shape Identification">Shape Identification</option>
+                                        <option value="Count Detection">Count Detection</option>
+                                        <option value="Mark Detection">Mark Detection</option>
+                                        <option value="Construction Safety">Construction Safety</option>
+                                    </select>
+                                    <p class="msg" id="file_err_msg"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row" style="text-align:left">
+                                <div>
+                                    <label>Select image</label><br>
+                                    <input type="file" class="btn btn-primary" name="ImageFile" id="ImageFile">
+                                    <p class="msg" id="file_err_msg"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-xs-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5 text-center">
+                            <div class="text-center">
+                                <img src="~/assets/images/preview.png" alt="Preview" class="img" id="preview_img" style="width:100%; min-height:300px; max-height:320px;">
+                                <br /><br />
+                                <button class="btn btn-primary" id="process_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Process</button>
+                                <br /><br />
+                                <p class="process_err_msg" id="process_error_msg"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="OutSection">
+                <div class="container">                    
+                    <div class="row">
+                        <div class="col-12 col-sm-12 offset-md-3 col-md-6 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6"> 
+                            <div style="background-color:white; border-color:forestgreen;border-style: solid;border-width: 5px;border-color: forestgreen; min-height:120px;">
+                                <p id="realfake_result" style="color:#036;font-family: Segoe UI,SegoeUI,Segoe WP,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;font-size:20px; padding: 10px; "></p>
+                            </div>                           
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- /Page Content -->
+        </div>
+        <!-- /Page Wrapper -->
+    </div>
+    <!-- /Main Wrapper -->
+
+    <div class="modal fade" id="alert_popup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <center>
+                        <h4 id="error_msg"></h4>
+                        <br><button class="btn-md btn-primary" id="refresh_btn">Okay</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+
+    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap Core JS -->
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#OutSection').hide();
+            $("#process_btn").attr("disabled", true);
+        });
+
+        $("#model_category").change(function () {
+            $('#OutSection').hide();
+            $("#process_btn").attr("disabled", false);
+            $('#process_error_msg').html("");
+        });
+
+        $(function () {
+            $(":file").change(function () {
+                $('#process_error_msg').html("");
+                $('#OutSection').hide();
+                if (this.files && this.files[0]) {
+                    $("#process_btn").attr("disabled", false);
+                    //FileName = this.files[0];
+                    var reader = new FileReader();
+                    reader.onload = imageIsLoaded;
+                    reader.readAsDataURL(this.files[0]);
+                }
+            });
+        });
+
+
+
+        function imageIsLoaded(e) {
+            $('#preview_img').attr('src', e.target.result);            
+        }
+        
+
+        $('#process_btn').on("click", function () {
+            $('#OutSection').hide();
+            $("#realfake_result").html("");
+            var model_category = $('#model_category').val();
+            var Url = "";
+            if (model_category == "Planogram Food") {
+                Url = "/Home/FoodFMCG/";
+            }
+            else if (model_category == "Planogram Non Food") {
+                Url = "/Home/NonFoodFMCG/";
+            }
+            else if (model_category == "Colour Identification") {
+                Url = "/Home/ColourIdentification/";
+            }
+            else if (model_category == "Shape Identification") {
+                Url = "/Home/ShapeIdentification/";
+            }
+            else if (model_category == "Count Detection") {
+                Url = "/Home/AnalyseCount/";
+            }
+            else if (model_category == "Mark Detection") {
+                Url = "/Home/AnalyseMarks/";
+            }
+            else if (model_category == "Construction Safety") {
+                Url = "/Home/ConstructionSafety/";
+            }
+            else {
+                Url = "";
+            }
+
+            var preview_img_src = $('#preview_img').attr('src');
+            //console.log(preview_img_src);
+
+            if (preview_img_src == "/asset/images/preview.png") {
+                $('#process_error_msg').html("Please upload a valid file");
+                $("#process_error_msg").css("color", "red");
+            }
+            else {
+                var img_64_array = preview_img_src.split(',');
+                var get_loading_text = $(this).attr('data-loading-text');
+                $('#process_btn').html(get_loading_text);
+                $('#process_error_msg').html("");
+                $("#process_btn").attr("disabled", true);
+                var UserData = JSON.stringify({
+                    image: img_64_array[1]
+                });
+                //console.log(UserData);
+
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf - 8",
+                    datatype: "json",
+                    data: UserData,
+                    url: Url,
+                    success: function (response) {
+                        console.log(response);
+                        try {
+                            if (response.ResponseCode == 200) {
+                                $('#OutSection').show();
+                                $('#process_btn').html("Process");        
+
+                                if (model_category == "Planogram Food") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Planogram Compliance :</b> " + ((response.Planogram)?'True':'False') + "<br><b> Items to Re-Ordered :</b> <br>";
+                                    for (let i = 0; i < response.ReOrders.length; i++)              {
+                                        result += "<span  style='margin-left: 20px;'>" + (i + 1) + ". " + response.ReOrders[i] +"</span><br>";
+                                    }
+                                        $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Planogram Non Food") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Planogram Compliance :</b> " + ((response.Planogram) ? 'True' : 'False') + "<br><b> Items to Re-Ordered :</b> <br>";
+                                    for (let i = 0; i < response.ReOrders.length; i++) {
+                                        result += "<span  style='margin-left: 20px;'>" + (i + 1) + ". " + response.ReOrders[i] + "</span><br>";
+                                    }
+                                    $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Colour Identification") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Colour Identified :</b> " + response.IdentifiedColour;
+                                    $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Shape Identification") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Shape Compliance :</b> " + ((response.ShapeResult) ? 'True' : 'False');
+                                    $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Count Detection") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>No of Objects Found :</b> " + response.DetectedCirclesCount;
+                                    $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Mark Detection") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Marks Detected :</b> <br>"
+                                    for (let i = 0; i < response.DetectedMarks.length; i++) {
+                                        result += "<span  style='margin-left: 20px;'>" + (i + 1) + ". " + response.DetectedMarks[i] + "</span><br>";
+                                    }
+                                    $("#realfake_result").html(result);
+                                }
+                                else if (model_category == "Construction Safety") {
+                                    var result = "<b><p style='text-align: center;color:Green;'>" + model_category + "</p>Missing Items :</b> <br>"
+                                    for (let i = 0; i < response.Missing.length; i++) {
+                                        result += "<span  style='margin-left: 20px;'>" + (i + 1) + ". " + response.Missing[i] + "</span><br>";
+                                    }
+                                    $("#realfake_result").html(result);
+                                }                                
+
+                            } else if (response.ResponseCode == 500) {
+                                $('#process_error_msg').html(response.Message);
+                                $("#process_error_msg").css("color", "red");
+                                $('#process_btn').html("Process");
+                                //$("#process_btn").attr("disabled", false);
+                            } else {
+                                $('#process_error_msg').html("");
+                                $("#process_error_msg").css("color", "red");
+                                $('#process_btn').html("Process");
+                                //$("#process_btn").attr("disabled", false);
+                            }
+                        } catch (err) {
+                            console.log(err);
+                            $('#process_error_msg').html("Please try again");
+                            $("#process_error_msg").css("color", "red");
+                            $('#process_btn').html("Process");
+                            //$("#process_btn").attr("disabled", false);
+                        }
+                    },
+                    error: function (response) {
+                        console.log(response);
+                        $('#process_error_msg').html("Please try again");
+                        $("#process_error_msg").css("color", "red");
+                        $('#process_btn').html("Process");
+                        //$("#process_btn").attr("disabled", false);
+                    }
+                });                
+            }
+            $("#process_btn").attr("disabled", true);
+        });
+
+
+
+
+
+
+
+        $("#snap_btn").click(function (e) {
+            e.preventDefault();
+            $("#realfake_result").html("");
+            $('#snap_btn').button('loading');
+            var canvas = capture(video, scaleFactor);
+            var image = canvas.toDataURL("image/png");
+            //console.log(image);
+            var img_64_array = image.split(',');
+            var img_extension = img_64_array[0];
+            var ImageBase64 = image.replace(img_extension + ",", "");
+            var model_category = $('#model_category').val();
+            var version_category = $("input[name='version']:checked").val();
+
+            if (model_category == "real_fake_detection") {
+                var JsonImage = JSON.stringify({ data: ImageBase64, version: version_category });
+
+                var Url = "/Home/RealFakeIdentification/"
+            }
+            else {
+                var JsonImage = JSON.stringify({ data: ImageBase64, model_category_name: model_category, version: version_category });
+                var Url = "/Home/Gate1Identification/"
+            }
+            //console.log(JsonImage);
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json",
+                datatype: "json",
+                data: JsonImage,
+                url: Url,
+                success: function (response) {
+                    if (response.Result == "") {
+                        $("#error_msg").html(response.Error);
+                        $("#alert_popup").modal('show');
+                    }
+                    else {
+                        $("#realfake_result").html(response.Result);
+                    }
+
+                    $('#snap_btn').button('reset');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

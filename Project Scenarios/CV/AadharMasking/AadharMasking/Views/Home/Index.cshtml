@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSN Aadhar Masking</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="~/assets/images/fav_touch_icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Indexassets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Indexassets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Indexassets/css/main.css">
+    <!--===============================================================================================-->
+    <style>
+        .controls
+        {
+            min-height:60px;
+            max-height:60px;
+            border-radius:5px;
+        }
+        .control_label{
+            padding:10px;
+            padding-left:0px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #666666;">
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form class="login100-form validate-form" method="POST">
+                    <span class="login100-form-title p-b-43">
+                        Login to continue
+                    </span>
+                    <label class="control_label">User Name</label>
+                    <input type="text" name="user_name" id="user_name" class="form-control controls" placeholder="User name" />
+                    <br />
+                    <label class="control_label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control controls" placeholder="Password" />
+                    <br>
+                    <br>
+
+                    <div class="container-login100-form-btn">
+                        <input type="submit" class="login100-form-btn" value="Login" id="login_btn" />
+                    </div>
+                    <br />
+                    <br />
+                    <p class="msg" id="error_msg"></p>
+                </form>
+                <div class="login100-more" style="background-image: url('/Indexassets/images/JSN_Logo.jpg');">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===============================================================================================-->
+    <script src="~/Indexassets/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Indexassets/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Indexassets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Indexassets/js/index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Alpha Project.dll.config
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Alpha Project.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Alpha Project.pdb
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csc.exe
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csc.exe.config
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csc.rsp
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csi.exe
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csi.exe.config
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\csi.rsp
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.AppContext.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Collections.Immutable.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Console.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.IO.Compression.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.IO.FileSystem.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.IO.Pipes.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.AccessControl.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Claims.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.ValueTuple.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Xml.XPath.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\vbc.exe
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\vbc.exe.config
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\vbc.rsp
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\VBCSCompiler.exe
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\roslyn\VBCSCompiler.exe.config
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Antlr3.Runtime.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.Web.Infrastructure.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Newtonsoft.Json.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\RestSharp.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Helpers.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Mvc.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Optimization.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Razor.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.Deployment.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.Razor.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\WebGrease.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Newtonsoft.Json.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\RestSharp.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Helpers.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Mvc.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Optimization.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.Razor.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.Deployment.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\System.Web.WebPages.Razor.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Antlr3.Runtime.pdb
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\obj\Release\Alpha Project.csprojAssemblyReference.cache
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\obj\Release\Alpha Project.csproj.CoreCompileInputs.cache
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\obj\Release\Alpha Project.csproj.CopyComplete
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\obj\Release\Alpha Project.dll
+E:\Microsoft Demo 26-Nov-2020\CA\Application\Alpha Project\obj\Release\Alpha Project.pdb

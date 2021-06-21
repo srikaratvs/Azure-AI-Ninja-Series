@@ -1,0 +1,336 @@
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll.config
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\TataAIGVision.pdb
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe.config
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csc.rsp
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe.config
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\csi.rsp
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.AppContext.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Collections.Immutable.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Console.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Compression.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Reflection.Metadata.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.AccessControl.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Claims.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Principal.Windows.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.ValueTuple.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe.config
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\vbc.rsp
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe.config
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Web.Infrastructure.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\RestSharp.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Razor.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\WebGrease.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\RestSharp.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.Razor.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.pdb
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csprojAssemblyReference.cache
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CoreCompileInputs.cache
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CopyComplete
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.dll
+E:\TATAAIG\TataAIGVision\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.pdb
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll.config
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.pdb
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe.config
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.rsp
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe.config
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.rsp
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.AppContext.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Collections.Immutable.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Console.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Compression.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Reflection.Metadata.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.AccessControl.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Claims.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Principal.Windows.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.ValueTuple.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe.config
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.rsp
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe.config
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Web.Infrastructure.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\RestSharp.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Razor.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\WebGrease.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\RestSharp.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Razor.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.pdb
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csprojAssemblyReference.cache
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CoreCompileInputs.cache
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CopyComplete
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.dll
+E:\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.pdb
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll.config
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\TataAIGVision.pdb
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe.config
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csc.rsp
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe.config
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\csi.rsp
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.AppContext.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Collections.Immutable.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Console.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Compression.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Reflection.Metadata.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.AccessControl.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Claims.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.ValueTuple.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe.config
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\vbc.rsp
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe.config
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Web.Infrastructure.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\RestSharp.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Razor.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\WebGrease.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\RestSharp.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.Razor.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.pdb
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csprojAssemblyReference.cache
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CoreCompileInputs.cache
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CopyComplete
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.dll
+E:\Text Analyzer\TATAAIGVISION\Final SlideShow\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.pdb
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll.config
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\TataAIGVision.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\TataAIGVision.pdb
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csc.exe.config
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csc.rsp
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csi.exe.config
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\csi.rsp
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.AppContext.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Collections.Immutable.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Console.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Compression.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.IO.Pipes.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Reflection.Metadata.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.AccessControl.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Claims.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.ValueTuple.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\vbc.exe.config
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\vbc.rsp
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\roslyn\VBCSCompiler.exe.config
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Web.Infrastructure.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\RestSharp.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Razor.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\WebGrease.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\RestSharp.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Helpers.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Mvc.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Optimization.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.Razor.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Deployment.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\System.Web.WebPages.Razor.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Newtonsoft.Json.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Antlr3.Runtime.pdb
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csprojAssemblyReference.cache
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CoreCompileInputs.cache
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.csproj.CopyComplete
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.dll
+E:\Microsoft Demo 26-Nov-2020\Cognitive Pipeline\TataAIGVision\TataAIGVision\obj\Release\TataAIGVision.pdb

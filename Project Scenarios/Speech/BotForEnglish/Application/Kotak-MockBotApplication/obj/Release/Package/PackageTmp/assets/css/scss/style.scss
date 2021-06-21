@@ -1,0 +1,20 @@
+@import 'global/reset';
+
+@import 'global/fonts';
+
+@import 'global/variables';
+
+@import 'global/globals';
+
+@import 'global/form-field';
+
+// components
+@import 'components/footer';
+@import 'components/header';
+
+// pages
+@import 'pages/login';
+@import 'pages/dashboard';
+@import 'pages/instructions';
+@import 'pages/chat';
+@import 'pages/final-score';

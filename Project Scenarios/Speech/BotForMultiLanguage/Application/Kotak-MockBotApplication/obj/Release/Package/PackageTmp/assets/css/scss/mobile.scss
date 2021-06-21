@@ -1,0 +1,14 @@
+// Extra Large devices (desktops, less than 1600px * 722px)
+@import 'mobile/extralarge';
+
+// Large devices (desktops, less than 1200px)
+@import 'mobile/large';
+
+// Medium devices (tablets, less than 992px)
+@import 'mobile/medium';
+
+// Small devices (landscape phones, less than 768px)
+@import 'mobile/small';
+
+// Extra small devices (portrait phones, less than 576px)
+@import 'mobile/extrasmall';
