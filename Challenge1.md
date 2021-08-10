@@ -4,7 +4,6 @@
 <h2>Getting Started</h2>
 <p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/Get%20Project%20Ready/Challenges/AI_Series_Starter_Kit">Git Repo</a></p>
 <h3>Prerequisites</h3>
-    <li>Kindly ensure that your Visual Studio and SQL Server Management Studio are working fine.</li>
     <li>Open the AI Series Starter Kit application.</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
     <li>Open the solution explorer [View -> Solution Explorer]</li>&nbsp; 
@@ -16,9 +15,9 @@
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width:100%;">
     <li>Following are the output screens of the application. Since the database doesn't contain any entries, all the screen will be empty.</li>
     <li>Home page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/main.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/main_admin.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Admin page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/index_admin_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Admin Index page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/admin_index.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Image Validation page</li>&nbsp;
@@ -34,7 +33,7 @@
     <li>Empty Audit Log page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/audit_log.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to User page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/User/user_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/index_user_1.png" alt="image" style="max-width:100%;">&nbsp;
     <li>User Index page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/User/User_Index.PNG" alt="image" style="max-width:100%;">&nbsp;
     <li>Navigate to Register page</li>&nbsp;
@@ -45,14 +44,6 @@
     <img src="http://139.59.61.161/PartnerTechSeries2019/User/User_Index_2.png" alt="image" style="max-width:100%;">&nbsp;
     <li>Empty Verify page</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/User/Verify_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <li>Navigate to Legal Document Verification page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Document_Verification/doc.png" alt="image" style="max-width:100%;">&nbsp;
-    <li>Empty Legal Document Verification page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Document_Verification/doc_1.PNG" alt="image" style="max-width:100%;">&nbsp;
-    <li>Navigate to Quality Control Check page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_1.png" alt="image" style="max-width:100%;">&nbsp;
-    <li>Empty Quality Control Check page</li>&nbsp;
-    <img src="http://139.59.61.161/PartnerTechSeries2019/Quality_Check/QCC_2.PNG" alt="image" style="max-width:100%;">&nbsp;
     <h2>Install Nuget Package</h2>
     <p>The Nuget package installed in this project is 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>Below is the installation procedure to install 'RestSharp' package</p>
@@ -100,30 +91,12 @@ public static byte[] storetoserver(string base64data)
 </ol>
   <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/9.PNG" alt="image" style="max-width:100%;">&nbsp;
 <p>Lets move on to the Face API</p>
-<h3>Creating Face API Key</h3>
+<h3>Face API Key</h3>
 <ol>
-  <strong>
-    <li>Sign-in to Azure Portal by typing "portal.azure.com" in browser, enter your username</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_1.jpg" alt="image" style="max-width: 100%;">
-    <li>Enter your Password</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_2.jpg" alt="image" style="max-width: 100%;">
-    <li>Click on create a resource</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_3.jpg" alt="image" style="max-width: 100%;">
-    <li>In the search box type 'face'</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_4.jpg" alt="image" style="max-width: 100%;">
-    <li>Click on create</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_5.jpg" alt="image" style="max-width: 100%;">
-    <li>Enter name and select location, pricing tier and resource group</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/portal_6.jpg" alt="image" style="max-width: 100%;">
-    <li>Click on Overview tab</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_7.jpg" alt="image" style="max-width: 100%;">
-    <li>Copy the endpoint</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_8.jpg" alt="image" style="max-width: 100%;">
-    <li>Click on Keys tab</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_9.jpg" alt="image" style="max-width: 100%;">
-    <li>Copy the Keys</li>
-    <img src="http://139.59.61.161/PartnerTechSeries2019/face_computer_portal/faceAPI_create/Portal_10.jpg" alt="image" style="max-width: 100%;">
-  </strong></ol>
+	<p>Will be providing two API keys</p>
+		<li>FaceAPIEndPoint</li>
+		<li>FaceAPIKey</li>
+  </ol>
 <h3>Invoking the Face API</h3>
 <ol>
   <strong>
@@ -339,53 +312,10 @@ public class ImageValidationHandler
   <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/5.PNG" alt="image" style="max-width: 100%;">
   <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/6.PNG" alt="image" style="max-width: 100%;">
   <img src="http://139.59.61.161/PartnerTechSeries2019/Emotions/7.PNG" alt="image" style="max-width: 100%;">&nbsp;
-<h3>Azure SQL Server Database Connectivity</h3>
-<li>Open SQL Server Management Studio</li>
-<li>To connect with the Azure SQL Server, you have to provide Server name, Login and Password details.</li>
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/1.jpg" style="max-width:100%;">
-<p>Download the script file from the GitHub and run the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/Get%20Project%20Ready/Challenges/HOL_Script.sql">Script File</a> </p> 
-<h2>Screens to demonstrate how to run the script file</h2>
-<li>Open the script file from the path where you have saved the downloaded GIT script file</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/2.jpg" style="max-width:100%;">&nbsp;
-<li>Select the appropriate script file, and click on open</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/3.jpg" style="max-width:100%;">&nbsp;
-<li>Run the script file to create all the tables(usertable, imagevalidation, gesture, auditlog, verifytime)</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/4.jpg" style="max-width:100%;">&nbsp;
-<li>Click the Execute button to run the script</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/5.jpg" style="max-width:100%;">&nbsp;
-<li>Output message</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/6.jpg" style="max-width:100%;">&nbsp;
-<li>Till now we have created all the tables, just click the database to visualize the tables </li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/7.jpg" style="max-width:100%;">&nbsp;
-<li>Click your Database</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/8.jpg" style="max-width:100%;">&nbsp;
-<li>Click tables</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/9.jpg" style="max-width:100%;">&nbsp;
-<li>List of all the tables</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/DB_Creation/10.jpg" style="max-width:100%;">&nbsp;
-<h3>Azure SQL Server Connectivity through Azure Portal</h3>
-<li>Sign-in to Azure Portal by typing "portal.azure.com" in browser, enter your username</li>
-<img src="http://139.59.61.161/PartnerTechSeries2019/sql/sql0c.JPG" alt="image" style="max-width: 100%;">
-<li>Enter your Password</li>
-<img src="http://139.59.61.161/PartnerTechSeries2019/sql/sql0.1c.JPG" alt="image" style="max-width: 100%;">
-<li>Click on SQL databases tab in the left pane</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql1.jpg" alt="image" style="max-width: 100%;">
-<li>Select your particular database</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql2.jpg" alt="image" style="max-width: 100%;">
-<li>Click on Query editor</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql3.jpg" alt="image" style="max-width: 100%;">
-<li>Specify your database password</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql5.jpg" alt="image" style="max-width: 100%;">
-<li>Copy all the queries from <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/Get%20Project%20Ready/Challenges/HOL_Script.sql">sql script file</a></li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql4.jpg" alt="image" style="max-width: 100%;">   
-<li>Paste all the queries in the editor pane and click on Run button</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql6_hackathon.jpg" alt="image" style="max-width: 100%;">
-<li>Now click on Connection strings tab in the left pane</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql7_hackathon.jpg" alt="image" style="max-width: 100%;">
-<li>Copy your Connection string</li>
-<img src="http://139.59.61.161/Hackathon/MSWorkshop2019/sql/sql8_hackathon.jpg" alt="image" style="max-width: 100%;">
-<h4>Paste your SQL server connection string in Web.config (i.e) for the key 'AzureSqlConnectionString', in the connection string specify your database user name and password, make 'MultipleActiveResultSets' as True</h4>
-<p>Sample Connectionstring : "Server=tcp:jsn.database.windows.net,1433;Initial Catalog=dbname;Persist Security Info=False;User ID=demouser; Password=demo@pass123;MultipleActiveResultSets=True;Encrypt=True; TrustServerCertificate=False;Connection Timeout=30;"</p>
+<h3>Server Database Connectivity</h3>
+<h4>Paste the given below SQL server connection string in Web.config (i.e) for the key 'AzureSqlConnectionString', in the connection string specify your database user name and password, make 'MultipleActiveResultSets' as True</h4>
+<p>Connectionstring : "Server=tcp:aitechseriesserver.database.windows.net,1433;Initial Catalog=AITechSeriesDBName;Persist Security Info=False;User ID=AISeries;Password=Ninja@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"</p>
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/connectionString.png" alt="image" style="max-width: 100%;">&nbsp;
 <p>Lets move on to the actual scenario where the Admin part is also included.</p>
 <p>The below code snippet contains the image_validation class properties. The ImageValidationTable Class has separate functions for each database query.</p>
 <ol>
@@ -964,32 +894,13 @@ public ActionResult image_validation()
 </blockquote>
 </strong>
 <h3>Design Changes</h3>
-<p>Lets start un-commenting the code in design screens</p>
-<p>Follow the picture shown below to navigate in the image_validation.cshtml file</p>
+<p>Open the image_validation.cshtml file as shown in the given below picture</p>
 <ol>
-<strong>
-<li>Open image_validation.cshtml</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment1.PNG" style="max-width:100%;">&nbsp;
-<li>Select the code from line number 221</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment2.PNG" style="max-width:100%;">&nbsp;
-<li>Select the code till line number 270</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment3.PNG" style="max-width:100%;">&nbsp;
-<li>Click on the uncomment button</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/UnComment_ImageValidation/View_Comment4.png" style="max-width:100%;">&nbsp;
+<strong><img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation_new.png" style="max-width:100%;">&nbsp;
 </ol>
 <h3>Just click the Run button and see the output in the admin side [Navigate to Admin -> Image Validation page]</h3>&nbsp;
 <li>Admin Image Validation with entries</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_1.JPG" alt="image" style="max-width: 100%;">&nbsp;
-<li>Selecting the Edit Button</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
-<li>Getting modal box</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_3.JPG" alt="image" style="max-width: 100%;">&nbsp;
-<li>Selecting Enable button</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
-<li>Disabled the enable button by clicking</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_5.JPG" alt="image" style="max-width: 100%;">&nbsp;
-<li>Updating the table</li>&nbsp;
-<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation_screen.png" alt="image" style="max-width: 100%;">&nbsp;
 </strong>
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
 <h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge2.md"> Challenge 2</a></h3>
