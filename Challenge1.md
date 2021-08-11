@@ -896,11 +896,19 @@ public ActionResult image_validation()
 <h3>Design Changes</h3>
 <p>Open the image_validation.cshtml file as shown in the given below picture</p>
 <ol>
-<strong><img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation_new.png" style="max-width:100%;">&nbsp;
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation_new.png" style="max-width:100%;">&nbsp;
+</ol>
+<p>Select line from 60 to 96 
+<ol>
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_valid_select_line.png" style="max-width:100%;">&nbsp;
+</ol>
+<p>Now click the uncommented the selected lines key</p> 
+<ol>
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_Validation_uncomment.png" style="max-width:100%;">&nbsp;
 </ol>
 <h3>Just click the Run button and see the output in the admin side [Navigate to Admin -> Image Validation page]</h3>&nbsp;
 <li>Admin Image Validation with entries</li>&nbsp;
 <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/image_validation_screen.png" alt="image" style="max-width: 100%;">&nbsp;
-</strong>
+
 <h3>Congratulations! You have successfully completed Challenge 1</h3>
 <h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge2.md"> Challenge 2</a></h3>
