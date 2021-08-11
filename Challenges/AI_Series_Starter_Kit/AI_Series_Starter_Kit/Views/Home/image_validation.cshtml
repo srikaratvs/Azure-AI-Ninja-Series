@@ -57,43 +57,43 @@
                     </div>
                     <div id="property-listing" class="flex-row row grid-style edit-marginBottom10">
                         <!-- Checking the model file is empty  -->
-                        @if (Model.Count == 0)
-                        {
-
-                            <p style="text-align: center;font-size: 50px;">No data found</p>
-                        }
-                        else
-                        {
-                            @model List<PartnerTechSeries.AI.HOL.FaceAPI.image_validation>
-                            foreach (var i in Model)
+                        @*@if (Model.Count == 0)
                             {
 
-                                <div class="item col-md-3">
-                                    <div class="item-box">
-                                        <div class="main-content">
-                                            <div class="image-box">
-                                                <div class="overlay-box">
-                                                    <div class="overlay"></div>
-                                                    <i class="fa fa-search"></i>
-                                                </div>
-                                            </div>
-                                            <div class="main-info">
-                                                <div class="col-sm-12 cs-padding">
-                                                    <label>Validation Type</label>
-                                                    <input type="text" class="form-control" placeholder="@i.validation_type" readonly>
-                                                </div>
-                                                <div class="col-sm-12 cs-padding">
-                                                    <label>Validation Message</label>
-                                                    <input type="text" class="form-control" placeholder="@i.validation_message" readonly>
-                                                </div>
-                                            </div>
+                                <p style="text-align: center;font-size: 50px;">No data found</p>
+                            }
+                            else
+                            {
+                                @model List<PartnerTechSeries.AI.HOL.FaceAPI.image_validation>
+                                foreach (var i in Model)
+                                {
 
+                                    <div class="item col-md-3">
+                                        <div class="item-box">
+                                            <div class="main-content">
+                                                <div class="image-box">
+                                                    <div class="overlay-box">
+                                                        <div class="overlay"></div>
+                                                        <i class="fa fa-search"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="main-info">
+                                                    <div class="col-sm-12 cs-padding">
+                                                        <label>Validation Type</label>
+                                                        <input type="text" class="form-control" placeholder="@i.validation_type" readonly>
+                                                    </div>
+                                                    <div class="col-sm-12 cs-padding">
+                                                        <label>Validation Message</label>
+                                                        <input type="text" class="form-control" placeholder="@i.validation_message" readonly>
+                                                    </div>
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- OFF item  -->
-                            }
-                        }
+                                    <!-- OFF item  -->
+                                }
+                            }*@
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -119,7 +119,6 @@
         <!-- END COPYRIGHT -->
     </footer>
     <!-- END FOOTER -->
-
     <!-- END WRAPPER -->
     <!-- Libs -->
     <script type="text/javascript" src="~/assets/js/bootstrap-select.js"></script>
