@@ -10,23 +10,11 @@
 <h3>Creating Group ID</h3>
   <ol>
     <strong>
-      <li>Navigate to <a href="https://southeastasia.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395244">Developer Portal</a>, click on PersonGroup tab on the left pane</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_1.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>Click on create tab on the left pane</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_2.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>Select the region</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_3.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>Enter any id in PersonGroupId, specify the face api key created in Azure portal here in 'Ocp-Apim-Subscription-Key'</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_4.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>In the Json specify the name and recognitionModel [Note : recognitionModel value must be 'recognition_01']</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_5.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>Response will be displayed</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/face_group_id/face_6.jpg" alt="image" style="max-width: 100%;">&nbsp;
-      <li>To start with, update the GroupID in Web.Config</li>&nbsp;
+      <li>To start with, update the PersonGroupId in Web.Config</li>&nbsp;
       <li>Open Web.Config file</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/Class/Web_config.PNG" alt="image" style="max-width:100%;">&nbsp;
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/AzureAi-webconfig.png" alt="image" style="max-width:100%;">&nbsp;
       <li>Enter the value for 'PersonGroupId'.</li>&nbsp;
-      <img src="http://139.59.61.161/PartnerTechSeries2019/Register/webconfig.PNG" alt="image" style="max-width:100%;">
+      <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/person_webconfig_groupid.png" alt="image" style="max-width:100%;">
   </strong>
 </ol>
 <h3>Design Changes</h3>
@@ -35,7 +23,7 @@
 <ol>
 <strong>
    <li>Open register.cshtml</li>&nbsp;
-   <img src="http://139.59.61.161/PartnerTechSeries2019/Register/UnComment1.PNG" style="max-width:100%;">&nbsp;
+   <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/c3-registerhtml.png" style="max-width:100%;">&nbsp;
    <li>Select the code from line number 211 to 213 and click on the uncomment button</li>&nbsp;
    <img src="http://139.59.61.161/PartnerTechSeries2019/Register/UnComment2.png" style="max-width:100%;">
 </strong>
@@ -688,7 +676,7 @@ public static List&lt;audit_log&gt; Admin_AuditLogShow()
 </ol>
 <h3>Invoking Audit Log design changes</h3>
 <li>Click on auditlog.cshtml</li>
-<img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/1.PNG" alt="image" style="max-width: 100%;">
+<img src="http://139.59.61.161/PartnerTechSeries2019/Admin/c3-auditlog.png" alt="image" style="max-width: 100%;">
 <li>Uncomment the code from line 220</li>
 <img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/2.PNG" alt="image" style="max-width: 100%;">
 <li>Uncomment the code till line 264</li>
@@ -698,4 +686,3 @@ public static List&lt;audit_log&gt; Admin_AuditLogShow()
 <p>Now you can run and check the Audit Log outputs</p>
     <img src="http://139.59.61.161/PartnerTechSeries2019/Audit_Log/auditlog.JPG" alt="image" style="max-width: 100%;">
 <h3>Congratulations! You have successfully completed Challenge 3</h3>
-<h3>The next session is<a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/blob/master/Get%20Project%20Ready/Challenge4.md"> Challenge 4</a></h3>
