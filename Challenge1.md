@@ -93,7 +93,7 @@ public static byte[] storetoserver(string base64data)
 <p>Lets move on to the Face API</p>
 <h3>Face API Key</h3>
 <ol>
-	<p>Will be providing two API keys</p>
+	<p>Will be providing API keys</p>
 		<li>FaceAPIEndPoint</li>
 		<li>FaceAPIKey</li>
   </ol>
@@ -104,7 +104,7 @@ public static byte[] storetoserver(string base64data)
       <li>Navigate to Web.Config</li>
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
-        <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/WebConfig.jpg" alt="image" style="max-width: 100%;"></strong>
+        <img src="http://139.59.61.161/PartnerTechSeries2019/Admin/web_config_face_api.png" alt="image" style="max-width: 100%;"></strong>
         &nbsp;
 <p>The below code snippet calls the Face API and checks for 4 attributes - Face availability, Multiple Face check, Sunglasses check and allowed Emotions.</p>
 <strong>
