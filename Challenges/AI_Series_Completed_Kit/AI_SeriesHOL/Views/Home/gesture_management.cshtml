@@ -314,18 +314,7 @@
                                                     <label style="font-weight: bolder;">@i.gesture_name</label>
                                                 </div>
                                                 <div class="col-sm-12 cs-padding">
-                                                    <a data-toggle="modal" data-target="#exampleModal" data-whatever="@@getbootstrap" class="edit_gesture_management" id="@i.id">
-                                                        <button class="btn btn-primary edit_btn">Edit</button>
-                                                    </a>
-
-                                                    @if (i.isactive == 0)
-                                                    {
-                                                        <button class="btn btn-primary enabled_btn">Enabled</button>
-                                                    }
-                                                    else
-                                                    {
-                                                        <button class="btn btn-danger disabled_btn">Disabled</button>
-                                                    }
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -442,23 +431,7 @@
         </div>
     </div>
     <section style="padding:0px;">
-        <div class="fab-container">
-            <div class="fab fab-icon-holder">
-                <i style="color: white;" class="fa fa-plus"></i>
-            </div>
-            <ul class="fab-options">
-
-                <a data-toggle="modal" data-target="#exampleModal1" data-whatever="@@getbootstrap">
-                    <li>
-                        <span class="fab-label">Add Gesture</span>
-                        <div class="fab-icon-holder">
-                            <i class="fa fa-building"></i>
-                        </div>
-                    </li>
-                </a>
-
-            </ul>
-        </div>
+       
 
 
     </section>
