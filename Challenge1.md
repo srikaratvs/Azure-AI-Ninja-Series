@@ -53,7 +53,7 @@
     <li>Click on the Browse tab, type 'RestSharp' and press Enter. From the search result set, select the specified package & project and click on Install</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h2>Code Summary</h2>
-<p>In this application we have seven C# classes and each class is meant to handle a specific module and functionality.The Facade Class is used as the intermediate class between these seven classes and the HomeController. The HomeController manages all the views and the C# classes. </p>
+<p>In this application we have several C# classes and each class is meant to handle a specific module and functionality.The Facade Class is used as the intermediate class between these several classes and the HomeController. The HomeController manages all the views and the C# classes. </p>
 <h2>Getting Started with the coding part - Following are the guidelines to work on the Computer Vision API</h2>
 <h3>Converting an Image into Base64 Data</h3>
 <p>The StorageHandler Class consists of many functions which are used to handle all the database functionalities,. It also consists of a function called 'SaveToFile' which is used to store the base64 image data into a byte array. The below code snippet converts the Base64 image data into a Byte Array. </p>
