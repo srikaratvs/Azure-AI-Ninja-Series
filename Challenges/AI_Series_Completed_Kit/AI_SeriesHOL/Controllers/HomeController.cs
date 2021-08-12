@@ -1,5 +1,4 @@
-﻿using AI_SeriesHOL.PartnerTechSeries.AI.HOL.FaceAPI;
-using PartnerTechSeries;
+﻿using PartnerTechSeries;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -178,39 +177,9 @@ namespace AI_SeriesHOL.Controllers
             return View();
         }
 
-        public JsonResult QualityChecking(String data, bool flag, string check)
-        {
-            // Calling the fuction from facade class
-            var fa_obj = Facade.QualityControlChecker(data, flag, check);
+      
 
-            try
-            {
-                // Checking the error
-                if (fa_obj.error == "")
-                {
-                    // returning the result
-                    return Json(new { TagName = fa_obj.TagName, Error = "" });
-                }
-                return Json(new { TagName = "", Error = fa_obj.error });
-            }
-            catch(Exception e)
-            {
-                return Json(new { TagName = "", Error = e.Message });
-            }
-        }
-
-        public async Task<JsonResult> DocumentVerification(string data, bool flag)
-        {
-            DocumentVerificationHandler dvh_obj = new DocumentVerificationHandler();
-
-            await dvh_obj.ExtractText(data, flag);
-
-            if (dvh_obj.Error == "")
-            {
-                return Json(new { Contract_Date = dvh_obj.ContractDate, Vendor_Name = dvh_obj.VendorName, Client_Name = dvh_obj.ClientName, Service_Description = dvh_obj.Services, Contract_Value = dvh_obj.ContractValue, End_Date = dvh_obj.EndDate, Penalty_Value = dvh_obj.PenaltyValue, Jurisdiction_Place = dvh_obj.JurisdictionPlace, Vendor_Email = dvh_obj.VendorEmail, Vendor_Phone = dvh_obj.VendorPhone, Client_Email = dvh_obj.ClientEmail, Client_Phone = dvh_obj.ClientPhone, Error = "" });
-            }
-            return Json(new { Summary = "", Error = dvh_obj.Error });
-        }
+      
 
     }
 }

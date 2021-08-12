@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using AI_SeriesHOL.PartnerTechSeries.AI.HOL.FaceAPI;
 using PartnerTechSeries.AI.HOL.FaceAPI;
 
 namespace PartnerTechSeries
@@ -22,7 +21,6 @@ namespace PartnerTechSeries
 
             ImageValidationTable ivtobj = new ImageValidationTable();
 
-            ImageDepthHandler idhobj = new ImageDepthHandler();
 
             GestureHandler gsobj = new GestureHandler();
 
@@ -42,39 +40,7 @@ namespace PartnerTechSeries
             if (result == "0")
             {
                 //Real or Face CheckBox
-                if (realfakecheck == "Yes")
-                {
-                    if (idhobj.Validate(imagebyte, url))
-                    {
-                        if (gsobj.GenerateDefaultGesture(url,imagebyte))
-                        {
-                            err[0].Add("Success");
-                            err[0].Add("");
-                            return err;
-                        }
-                        else
-                        {
-                            if (gsobj.error != "")
-                            {
-                                err[0].Add("");
-                                err[0].Add(gsobj.error);
-                                return err;
-                            }
-                            err[0].Add("Please follow the Gesture");
-                            err[0].Add("");
-                            return err;
-                        }
-                    }
-                    else
-                    {
-                        err[0].Add("You are trying to spoof");
-                        err[0].Add("");
-                        return err;
-                    }
-
-                }
-                else
-                {
+              
                     if (gsobj.GenerateDefaultGesture(url,imagebyte))
                     {
                         err[0].Add("Success");
@@ -93,7 +59,7 @@ namespace PartnerTechSeries
                         err[0].Add("");
                         return err;
                     }
-                }
+                
             }
             else
             {
@@ -156,43 +122,8 @@ namespace PartnerTechSeries
 
             GestureHandler gshobj = new GestureHandler();
             FaceRegistrationHandler frhobj = new FaceRegistrationHandler();
-            ImageDepthHandler idh = new ImageDepthHandler();
+           
 
-            if (check == "Yes")
-            {
-                if (idh.Validate(imagebyte,url))
-                {
-
-                    if (gshobj.Validate(url,imagebyte, gesture))
-                    {
-                        string result = frhobj.VerifyFace(imagebyte, CheckIn);
-                        err[0].Add(result);
-                        err[0].Add("");
-                        return err;
-                    }
-                    else
-                    {
-                        if (gshobj.error != "")
-                        {
-                            err[0].Add("Failed");
-                            err[0].Add(gshobj.error);
-                            return err;
-                        }
-
-                        err[0].Add("Failed");
-                        err[0].Add("Please follow the gesture and try again");
-                        return err;
-                    }
-                }
-                else
-                {
-                    err[0].Add("You are trying to spoof");
-                    err[0].Add("");
-                    return err;
-                }
-            }
-            else
-            {
                 if (gshobj.Validate(url,imagebyte, gesture))
                 {
                     string result = frhobj.VerifyFace(imagebyte, CheckIn);
@@ -214,7 +145,7 @@ namespace PartnerTechSeries
                     err[0].Add("Please follow the gesture and try again");
                     return err;
                 }
-            }
+            
         }
 
         // Image Validation 
@@ -286,23 +217,10 @@ namespace PartnerTechSeries
             return altobj.List();
         }
 
-        public static QualityControlChecker QualityControlChecker(string base64, bool flag, string check)
-        {
-            //creating object for Quality control checker 
-            QualityControlChecker qcc_obj = new QualityControlChecker();
-            //calling the quality check function
-            qcc_obj.Quality_Check(base64, flag, check);
-            //returning the result
-            return (qcc_obj);
-        }
+       
 
 
-        public async Task<DocumentVerificationHandler> DocumentVerificationHandler(string base64, bool flag)
-        {
-            DocumentVerificationHandler dvh_obj = new DocumentVerificationHandler();
-            await dvh_obj.ExtractText(base64, flag);
-            return (dvh_obj);
-        }
+       
 
     }
 }
