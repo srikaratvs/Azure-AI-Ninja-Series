@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="G:\June4 WorkShop\C#\BotForMultiLanguage\Application\Kotak-MockBotApplication\obj\Release\Package\PackageTmp" />
-  <setAcl path="G:\June4 WorkShop\C#\BotForMultiLanguage\Application\Kotak-MockBotApplication\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="G:\June4 WorkShop\C#\BotForMultiLanguage\Application\Kotak-MockBotApplication\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>

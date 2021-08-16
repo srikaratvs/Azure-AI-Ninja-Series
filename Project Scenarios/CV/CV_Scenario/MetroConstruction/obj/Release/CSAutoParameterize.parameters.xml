@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="MySQLConnectionString-Web.config Connection String" description="MySQLConnectionString Connection String used in web.config by the application to access the database." defaultValue="Database=darpana_branch; Data Source=139.59.61.161; User Id=root; Password=ce74f2a47afea37926055e7324662c3667a838df7065e2b8" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="G:\\June4\ WorkShop\\C\#\\MetroConstruction\\MetroConstruction\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MySQLConnectionString']/@connectionString" />
-  </parameter>
-</parameters>
