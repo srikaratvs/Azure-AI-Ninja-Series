@@ -2,7 +2,7 @@
 <h1>Challenge 1 – Image Validation using Azure Computer Vision</h1>
 <p>In Challenge 1, we are going to explore how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connect with Azure SQL Server Database and register a person's face to be used later during the face identification.</p>
 <h2>Getting Started</h2>
-<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/VectorSense/AI-Ninja-Tech-Series/tree/master/Get%20Project%20Ready/Challenges/AI_Series_Starter_Kit">Git Repo</a></p>
+<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/srikaratvs/Azure-AI-Ninja-Series/tree/main/Challenges/AI_Series_Starter_Kit">Git Repo</a></p>
 <h3>Prerequisites</h3>
     <li>Open the AI Series Starter Kit application.</li>&nbsp;
     <img src="http://139.59.61.161/PartnerTechSeries2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
